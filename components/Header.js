@@ -20,7 +20,7 @@ const Header = ({ navigation, userDetails }) => {
             }
           >
             <Image
-              className="h-12 w-12 bg-gray-300 p-4 rounded-full "
+              className="h-12 w-12 bg-[#BFD7ED] p-4 rounded-full "
               source={{ uri: userDetails.profilePicture }}
             />
           </TouchableOpacity>
